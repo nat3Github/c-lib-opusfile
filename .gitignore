@@ -48,3 +48,6 @@ unix/objs
 unix/opusfile_example
 unix/seeking_example
 build
+.zig-cache/
+zig-out/
+zig-pkg/

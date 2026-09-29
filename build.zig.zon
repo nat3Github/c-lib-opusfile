@@ -1,0 +1,27 @@
+.{
+    .name = .opusfile,
+    .fingerprint = 0xc8c7523448a8a6ce,
+    .version = "0.12.0",
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .ogg = .{
+            .url = "git+https://github.com/nat3Github/c-lib-ogg#5cf65748a2c4c54992014ba1c0ac7fb8accc56a9",
+            .hash = "ogg-1.3.6-VNQSghwdAgDSyq-1W7Jcpawz6k3tz_LS4RTXHe3kAec0",
+        },
+        .opus = .{
+            .url = "git+https://github.com/nat3Github/c-lib-opus#808bcd92c46580b39e97bed3e38d8e9bcea67bc3",
+            .hash = "opus-1.6.1-PWTqXUatMgCPY-AEkCjGnWio7pjsJLsbNF7Y2fQyUBJK",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "COPYING",
+        "include/opusfile.h",
+        "src/info.c",
+        "src/internal.c",
+        "src/internal.h",
+        "src/opusfile.c",
+        "src/stream.c",
+    },
+}
